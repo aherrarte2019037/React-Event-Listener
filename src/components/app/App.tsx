@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import Counter from '../counter/Counter'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <h1 className='text-blue-500'>Hola</h1>
+    <div className="gap-6 flex flex-col justify-center items-center h-screen">
+      <h1 className='text-white text-center text-4xl font-bold mb-5'>React Event Listener</h1>
+      <Counter/>
     </div>
   )
 }
